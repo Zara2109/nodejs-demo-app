@@ -1,2 +1,22 @@
-# nodejs-demo-app
-Automated CI/CD pipeline for a Node.js application using GitHub Actions and Docker Hub. Builds, tests, and deploys Docker images on every push to the main branch.
+# Node.js CI/CD Pipeline
+
+## Objective
+Automate code deployment using GitHub Actions.
+
+## Tools Used
+- GitHub
+- GitHub Actions
+- Node.js
+- Docker
+- Docker Hub
+
+## Workflow
+1. Push code to GitHub
+2. GitHub Actions triggers automatically
+3. Install dependencies
+4. Run tests
+5. Build Docker image
+6. Push image to Docker Hub
+
+## Result
+Successfully implemented a CI/CD pipeline that automatically builds and deploys a Docker image whenever code is pushed to the main branch.
